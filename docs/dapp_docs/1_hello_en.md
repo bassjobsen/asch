@@ -64,12 +64,7 @@ Now you can access the frontend application on the address ```localhost:4096```.
 ## 6 Prepare Account For Dapp Registration
 
 
-Notice that you may skip step 6 till 11 by running [asch-redeploy](# 14.1-running-asch-redeploy)
-[test](## 6 Prepare Account For Dapp Registration)
-
-[Google](http://www.linkotheek.nl)
-
-[tese](#14.1-running-asch-redeploy)
+Notice that you may skip step 6 till 11 by running [asch-redeploy](#141-running-asch-redeploy).
 
 First create a new local asch-account.
 
