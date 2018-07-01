@@ -380,5 +380,5 @@ null { success: true, transactionId: '10589988261732949004' }
 
 In the web wallet (`localhost:4096`) we can see (after approximately 30 seconds) that the balance was updated.
 
-####asch-redeploy
+#### asch-redeploy
 Use asch-redeploy:
