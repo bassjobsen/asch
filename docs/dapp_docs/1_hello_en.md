@@ -63,7 +63,7 @@ Now you can access the frontend application on the address ```localhost:4096```.
 
 ## 6 Prepare Account For Dapp Registration
 
-### 6.1 You may skip step 6 till 11 by running [asch-redeploy](./####asch-redeploy)
+### 6.1 You may skip step 6 till 11 by running [asch-redeploy](####asch-redeploy)
 
 
 First create a new local asch-account.
