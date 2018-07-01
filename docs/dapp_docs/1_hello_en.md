@@ -160,7 +160,7 @@ hello
 1
 
 # enter dapp link
-https://github.com/AschPlatform/asch-dapp-helloworld/archive/master.zip
+https://github.com/sqfasd/asch-hello-dapp/archive/master.zip
 
 # enter dapp icon url
 http://o7dyh3w0x.bkt.clouddn.com/hello.png
@@ -226,7 +226,7 @@ Use browser access `http://localhost:4096/api/dapps/get?id=<dapp Id>`, you can q
         "name": "asch-dapp-helloworld", 
         "description": "A hello world demo for asch dapp", 
         "tags": "asch,dapp,demo", 
-        "link": "https://github.com/AschPlatform/asch-dapp-helloworld/archive/master.zip", 
+        "link": "https://github.com/sqfasd/asch-hello-dapp/archive/master.zip", 
         "type": 0, 
         "category": 1, 
         "icon": "http://o7dyh3w0x.bkt.clouddn.com/hello.png", 
@@ -245,15 +245,8 @@ Use browser access `http://localhost:4096/api/dapps/get?id=<dapp Id>`, you can q
 
 ## 9 Install the dapp on the localnet
 
-Finally it is time to install the dapp on the localnet.
+Finally it is time to install the dapp on the localnet:
 
-First we copy the files created in previous step to the dapp subdirectory under the asch installation directory and rename it to dapp's id:
-
-```
-> cp -r asch-test-dapp path/to/asch/dapps/0599a6100280df0d296653e89177b9011304d971fb98aba3edcc5b937c4183fb
-```
-
-then:
 ```
 # execute 
 asch-cli -H 127.0.0.1 -P 4096 dapps --install
@@ -275,21 +268,6 @@ The dapp masterpassword is located in `asch/config.json`.
       "": [
       ]
     }
-```
-
-Then write the passwords of the 5 delegates into the dapp configuration file `asch/dapps/<dapp Id>/config.json`.
-
-```
-# config.json
-{
-  "secrets": [
-    "flame bottom dragon rely endorse garage supply urge turtle team demand put",
-    "thrive veteran child enforce puzzle buzz valley crew genuine basket start top",
-    "black tool gift useless bring nothing huge vendor asset mix chimney weird",
-    "ribbon crumble loud chief turn maid neglect move day churn share fabric",
-    "scan prevent agent close human pair aerobic sad forest wave toe dust"
-  ]
-}
 ```
 
 **After the installation restart the node**
