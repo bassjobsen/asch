@@ -63,6 +63,9 @@ Now you can access the frontend application on the address ```localhost:4096```.
 
 ## 6 Prepare Account For Dapp Registration
 
+### 6.1 You may skip step 6 till 11 by running [asch-redeploy](.####asch-redeploy)
+
+
 First create a new local asch-account.
 
 ```
@@ -376,3 +379,6 @@ null { success: true, transactionId: '10589988261732949004' }
 ```
 
 In the web wallet (`localhost:4096`) we can see (after approximately 30 seconds) that the balance was updated.
+
+####asch-redeploy
+Use asch-redeploy:
