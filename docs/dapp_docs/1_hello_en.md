@@ -384,3 +384,13 @@ In the web wallet (`localhost:4096`) we can see (after approximately 30 seconds)
 ## 14 Alternatives
 ### 14.1 Running asch-redeploy
 Use asch-redeploy:
+
+```
+> npn install -g asch-redeploy
+```
+
+Then
+
+```
+ > git clone https://github.com/sqfasd/asch-hello-dapp.git && cd asch-hello-dapp && asch-redeploy
+```
