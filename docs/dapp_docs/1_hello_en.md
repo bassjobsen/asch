@@ -383,7 +383,7 @@ In the web wallet (`localhost:4096`) we can see (after approximately 30 seconds)
 
 ## 14 Alternatives
 ### 14.1 Running asch-redeploy
-Use asch-redeploy:
+Use [asch-redeploy](https://github.com/AschPlatform/asch-redeploy):
 
 ```
 > npn install -g asch-redeploy
